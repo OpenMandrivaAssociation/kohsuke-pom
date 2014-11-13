@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           kohsuke-pom
 Version:        9
 Release:        1%{?dist}
