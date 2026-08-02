@@ -1,6 +1,6 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           kohsuke-pom
-Version:        9
+Version:        21
 Release:        1%{?dist}
 Summary:        Kohsuke parent POM
 
@@ -18,7 +18,7 @@ BuildRequires:  maven-local
 This package contains Kohsuke parent POM file.
 
 %prep
-%setup -q -n pom-pom-%{version}
+%setup -q -n pom-pom-21
 
 cp %{SOURCE1} LICENSE
 
